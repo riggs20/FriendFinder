@@ -16,17 +16,17 @@
 			<form>
 				<div class="form-group">
 					<label for="name"><h4>Name (Required)</h4></label>
-					<input type="text" class="form-control">
+					<input type="text" class="form-control" id="nameInput">
 				</div>
 				<div class="form-group">
 					<label for="image"><h4>Link to Photo Image (Required)</h4></label>
-					<input type="text" class="form-control"><hr>
+					<input type="text" class="form-control" id="imgLinkInput"><hr>
 				</div>
 				<div class="form-group">
 					<label for="qone"><h3><strong>Question 1</strong></h3></label>
-					<p>Question one goes here</p>
+					<h4>It is often difficult for you to relate to other people’s feelings.</h4>
 					<div class="btn-group">
-						<button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="questionOneInput">
 							Select an option <span class="caret"></span>
 						</button>
 						<ul class="dropdown-menu">
@@ -40,9 +40,9 @@
 				</div>
 				<div class="form-group">
 						<label for="qone"><h3><strong>Question 2</strong></h3></label>
-						<p>Question one goes here</p>
+						<h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
 						<div class="btn-group">
-							<button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="questionTwoInput">
 								Select an option <span class="caret"></span>
 							</button>
 							<ul class="dropdown-menu">
@@ -56,9 +56,9 @@
 					</div>
 				<div class="form-group">
 					<label for="qone"><h3><strong>Question 3</strong></h3></label>
-					<p>Question one goes here</p>
+					<h4>You rarely get carried away by fantasies and ideas.</h4>
 					<div class="btn-group">
-						<button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="questionThreeInput">
 							Select an option <span class="caret"></span>
 						</button>
 						<ul class="dropdown-menu">
@@ -72,7 +72,7 @@
 				</div>
 				<div class="form-group">
 					<label for="qone"><h3><strong>Question 4</strong></h3></label>
-					<p>Question one goes here</p>
+					<h4>You rarely do something just out of sheer curiosity.</h4>
 					<div class="btn-group">
 						<button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Select an option <span class="caret"></span>
@@ -88,7 +88,7 @@
 				</div>
 				<div class="form-group">
 					<label for="qone"><h3><strong>Question 5</strong></h3></label>
-					<p>Question one goes here</p>
+					<h4>You feel more energetic after spending time with a group of people.</h4>
 					<div class="btn-group">
 						<button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Select an option <span class="caret"></span>
@@ -102,14 +102,97 @@
 						</ul>
 					</div>
 				</div>
-				<a class="btn btn-primary btn-block btn-lg" href="#" role="button"><span class="glyphicon glyphicon-check"></span> Submit</a>
+				<div class="form-group">
+					<label for="qone"><h3><strong>Question 6</strong></h3></label>
+					<h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
+					<div class="btn-group">
+						<button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Select an option <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li>1 (Strongly Disagree)</li>
+							<li>2</li>
+							<li>3</li>
+							<li>4</li>
+							<li>5 (Strongly Agree)</li>
+						</ul>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="qone"><h3><strong>Question 7</strong></h3></label>
+					<h4>People can rarely upset you.</h4>
+					<div class="btn-group">
+						<button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Select an option <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li>1 (Strongly Disagree)</li>
+							<li>2</li>
+							<li>3</li>
+							<li>4</li>
+							<li>5 (Strongly Agree)</li>
+						</ul>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="qone"><h3><strong>Question 8</strong></h3></label>
+					<h4>Generally speaking, you rely more on your experience than your imagination.</h4>
+					<div class="btn-group">
+						<button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Select an option <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li>1 (Strongly Disagree)</li>
+							<li>2</li>
+							<li>3</li>
+							<li>4</li>
+							<li>5 (Strongly Agree)</li>
+						</ul>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="qone"><h3><strong>Question 9</strong></h3></label>
+					<h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4>
+					<div class="btn-group">
+						<button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Select an option <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li>1 (Strongly Disagree)</li>
+							<li>2</li>
+							<li>3</li>
+							<li>4</li>
+							<li>5 (Strongly Agree)</li>
+						</ul>
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="qone"><h3><strong>Question 10</strong></h3></label>
+					<h4>In a discussion, truth should be more important than people’s sensitivities.</h4>
+					<div class="btn-group">
+						<button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Select an option <span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li>1 (Strongly Disagree)</li>
+							<li>2</li>
+							<li>3</li>
+							<li>4</li>
+							<li>5 (Strongly Agree)</li>
+						</ul>
+					</div>
+				</div>
+														
+				<a class="btn btn-primary btn-block btn-lg" id="submit" href="#" role="button"><span class="glyphicon glyphicon-check"></span> Submit</a>
 			</form>
 			<br><br>
 		<p><a href="#">API Friends List</a> | <a href="#">GitHub Repo</a></p>
 	</div>
 
 	<script type="text/javascript">
-	$('.dropdown-toggle').dropdown()
+		$('.dropdown-toggle').dropdown()
 	</script>
+	<script src="../data/friends.js"></script>
+
 </body>
 </html>
